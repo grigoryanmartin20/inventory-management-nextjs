@@ -1,5 +1,5 @@
 import Link from "next/link";
-// Stack
+// Stackframe
 import { SignIn } from "@stackframe/stack";
 
 const SignInPage = () => {
