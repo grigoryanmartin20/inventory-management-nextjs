@@ -6,7 +6,7 @@ import { TrashIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Spinner } from '@/components/ui/spinner';
 
-export function InventoryDeleteButton() {
+const InventoryDeleteButton = () => {
 	const { pending } = useFormStatus();
 
 	return (
@@ -17,3 +17,4 @@ export function InventoryDeleteButton() {
 	);
 }
 
+export default InventoryDeleteButton;
